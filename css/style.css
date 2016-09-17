@@ -1,0 +1,110 @@
+body{
+    font-size: large;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: block;
+  width: 80%;
+  padding: 5px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid;
+  color: #000000;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+}
+
+footer{
+    font-style:italic;
+}
+
+@media screen and (min-width:600px){
+    body{
+        background-color: lightgray;
+        }
+    
+    nav{
+    margin: 0 auto;
+    }
+    
+    nav a {
+        margin: 25px 15px;
+        display: inline-block;
+        width: 350px;
+        height: 200px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 350px 180px;
+    }
+    
+    #a1 {
+        background-image: url('../images/a1.png');
+        
+    }
+    
+    #a1:hover{
+        background-image: url('../images/a1hover.png');
+    }
+    
+    #a2{
+        background-image: url('../images/a2.png');
+    }
+    #a2:hover{
+        background-image:url('../images/a2hover.png');
+    }
+    
+    #a3{
+        background-image: url('../images/a3.png');
+    }
+    #a3:hover{
+        background-image:url('../images/a3hover.png');
+    }
+    
+    #a4{
+        background-image: url('../images/a4.png');
+    }
+    #a4:hover{
+        background-image:url('../images/a4hover.png');
+    }
+    
+    #a5{
+        background-image: url('../images/a5.png');
+    }
+    #a5:hover{
+        background-image:url('../images/a5hover.png');
+    }
+    
+    #a6{
+        background-image: url('../images/a6.png');
+    }
+    #a6:hover{
+        background-image:url('../images/a6hover.png');
+    }
+    
+    #a7{
+        background-image: url('../images/a7.png');
+    }
+    #a7:hover{
+        background-image:url('../images/a7hover.png');
+    }
+    
+    #a12 {
+        background-image: url('../images/a12.png');
+    }
+    #a12:hover{
+        background-image:url('../images/a12hover.png');
+    }
+    
+}
